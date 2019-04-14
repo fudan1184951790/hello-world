@@ -16,6 +16,16 @@ public class EchoController {
     }
 
     @RequestMapping("/hello")
+    public String hello2(String name){
+        return "hello, " + name;
+    }
+
+    @RequestMapping("/hello")
+    public String hello4(String name){
+        return "hello, " + name;
+    }
+
+    @RequestMapping("/hello")
     public String hello3(String name){
         return "hello, " + name;
     }
