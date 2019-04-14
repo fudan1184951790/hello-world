@@ -51,6 +51,7 @@ public class EchoController {
     }
     @RequestMapping("/hello")
     public String hello8(String name){
+        System.out.println("ssssssssssssssssss");
         return "hello, " + name;
     }
 }
