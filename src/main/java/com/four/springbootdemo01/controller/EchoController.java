@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class EchoController {
     @RequestMapping("/hello")
     public String hello(String name){
+        System.out.println("222222");
         return "hello, " + name;
     }
 
