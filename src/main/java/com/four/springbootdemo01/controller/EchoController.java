@@ -49,4 +49,8 @@ public class EchoController {
     public String hello9(String name){
         return "hello, " + name;
     }
+    @RequestMapping("/hello")
+    public String hello8(String name){
+        return "hello, " + name;
+    }
 }
